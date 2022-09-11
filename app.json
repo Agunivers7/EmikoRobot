@@ -50,8 +50,8 @@
      },
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
-         "required": true,
-         "value": "BQBL4DGKM5U05KkJ3J6_8WFrlq7CBvUQrQGYzER2glzv2gPs869yU0kJz2hCnertaf6GowiU9MDTAXHbcg83qa9sQbjY4OXpM68bZpbyXc59g2v9TkD3WseeX2eNIvVlar8pf9pSYmBs-ZuSqjodDF5WM6QNNQmDTCajC_r8WXD8dlEo6zIRYW8nmMZtQaj0jc1rY9XUHUQm6qJnWrAJJHX1ZP23eyFZBJ2gdWqnNZw_BqmH9tw_0kZi-nBrsRbBrsTH18XEjsw-gwJnEqk-A110MPqsrMxRORhXt134-ysGtw4NCWzJN87Jc5V-ImtKqF2IncnSt2Bu9wkU-xT5gKvjTuPhfwA" 
+         "required": false,
+         "value": "" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -121,7 +121,7 @@
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-         "value": " false"
+         "value": " true"
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
